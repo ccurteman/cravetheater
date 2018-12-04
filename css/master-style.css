@@ -9,7 +9,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
     overflow: auto;
 }
 
@@ -21,6 +21,29 @@ footer {
     margin-top: 5%;
     padding: 1%;
 }
+/* ------------------------------------- */
+
+
+/* Changes to Wrapper Container */
+#wrapper {
+    padding: 0 3rem;
+    margin-bottom: 50%;
+}
+
+#wrapper>h1,
+.conatiner>h2 {
+    font-weight: 200;
+    margin: 0.2rem;
+}
+
+#wrapper>h1 {
+    font-size: 10rem;
+}
+
+#wrapper>h2 {
+    font-size: 2rem;
+}
+/* ------------------------------------- */
 
 /* Class Changes */
 h1.display-4 {
@@ -31,15 +54,10 @@ h1.display-4 {
     font-size: 64px;
     margin: 0;
     background: rgb(246, 248, 249);
-    /* Old browsers */
     background: -moz-linear-gradient(top, rgba(246, 248, 249, 1) 0%, rgba(229, 235, 238, 1) 50%, rgba(215, 222, 227, 1) 51%, rgba(245, 247, 249, 1) 100%);
-    /* FF3.6-15 */
     background: -webkit-linear-gradient(top, rgba(246, 248, 249, 1) 0%, rgba(229, 235, 238, 1) 50%, rgba(215, 222, 227, 1) 51%, rgba(245, 247, 249, 1) 100%);
-    /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, rgba(246, 248, 249, 1) 0%, rgba(229, 235, 238, 1) 50%, rgba(215, 222, 227, 1) 51%, rgba(245, 247, 249, 1) 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f8f9', endColorstr='#f5f7f9', GradientType=0);
-    /* IE6-9 */
 }
 
 .dropdown:hover>.dropdown-menu {
@@ -59,36 +77,23 @@ h1.display-4 {
 
 .banner {
     text-shadow: 4px 4px 4px black;
-    margin-top: 40%;
+    margin-top: 25%;
     margin-bottom: 50%;
+    margin-left: 5%;
 }
 
 .txt-type>.txt {
     border-right: 0.2rem solid #777;
     border-bottom: 1px solid white;
 }
+/* ------------------------------------- */
+
 
 /* ID Changes */
 
-#home {
-    padding: 0 3rem;
-    margin-bottom: 50%;
-}
-
-#home>h1,
-.conatiner>h2 {
-    font-weight: 200;
-    margin: 0.2rem;
-}
-
-#home>h1 {
-    font-size: 10rem;
-}
-
-#home>h2 {
-    font-size: 2rem;
-}
-
 #about {
+    background-color: rgba(0, 0, 0, 0.75);
+    background-clip: inherit;
+    padding: 5%;
     margin-bottom: 50%;
 }
