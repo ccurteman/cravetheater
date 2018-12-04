@@ -1,5 +1,6 @@
 /* Site Master Stylesheet */
 
+/* Element Changes */
 html,
 body {
     font-family: "Bookman", "Ariel";
@@ -9,13 +10,19 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-size: 100%;
-    overflow: hidden;
+    overflow: auto;
 }
 
 p {
     font-size: 20px;
 }
 
+footer {
+    margin-top: 5%;
+    padding: 1%;
+}
+
+/* Class Changes */
 h1.display-4 {
     color: rgba(0, 0, 0, 0.9);
     font-weight: 1000;
@@ -45,30 +52,6 @@ h1.display-4 {
     display: none;
 }
 
-/* -------------------------------- */
-
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-    padding: 0 3rem;
-}
-
-.container>h1,
-.conatiner>h2 {
-    font-weight: 200;
-    margin: 0.2rem;
-}
-
-.container > h1 {
-    font-size: 10rem;
-}
-
-.conatiner > h2 {
-    font-size: 2rem;
-}
-
 .nav-item {
     display: inline;
     padding-right: 1rem;
@@ -76,24 +59,36 @@ h1.display-4 {
 
 .banner {
     text-shadow: 4px 4px 4px black;
+    margin-top: 100%;
+    margin-bottom: 50%;
 }
 
-.txt-type > .txt {
+.txt-type>.txt {
     border-right: 0.2rem solid #777;
     border-bottom: 1px solid white;
 }
 
-/* --------------------------------- */
+/* ID Changes */
 
-.about {
-    background-color: white;
-    padding: 2rem;
-    height: 100vh;
+#home {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%; */
+    padding: 0 3rem;
+    margin-bottom: 50%;
 }
 
-/* ------------------------------------ */
+#home>h1,
+.conatiner>h2 {
+    font-weight: 200;
+    margin: 0.2rem;
+}
 
-footer {
-    margin-top: 5%;
-    padding: 1%;
+#home>h1 {
+    font-size: 10rem;
+}
+
+#home>h2 {
+    font-size: 2rem;
 }
