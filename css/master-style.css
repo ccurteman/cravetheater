@@ -18,7 +18,6 @@ p {
 }
 
 footer {
-    margin-top: 5%;
     padding: 1%;
 }
 /* ------------------------------------- */
@@ -83,7 +82,7 @@ h1.display-4 {
 }
 
 .txt-type>.txt {
-    border-right: 0.2rem solid #777;
+    /* border-right: 0.2rem solid #777; */
     border-bottom: 1px solid white;
 }
 /* ------------------------------------- */

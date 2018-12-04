@@ -14,6 +14,7 @@ TypeWriter.prototype.type = function () {
     const current = this.wordIndex % this.words.length;
     // Get full text of current word
     const fullTxt = this.words[current];
+    console.log(fullTxt);
 
     // Check if deleting
     if (this.isDeleting) {
@@ -26,11 +27,11 @@ TypeWriter.prototype.type = function () {
     this.txtElement.innerHTML = `<span class="txt">${this.txt}</span>`;
     let typeSpeed = 150;
 
-    if(this.isDeleting) {
+    if (this.isDeleting) {
         typeSpeed /= 2;
     }
 
-    if(!this.isDeleting && this.txt === fullTxt) {
+    if (!this.isDeleting && this.txt === fullTxt) {
         typeSpeed = this.wait;
         this.isDeleting = true;
     } else if (this.isDeleting && this.txt === '') {
@@ -39,7 +40,11 @@ TypeWriter.prototype.type = function () {
         typeSpeed = 500;
     }
 
-    setTimeout(() => this.type(), typeSpeed);
+    if (fullTxt === 'Theatre Company' && this.txt.slice(-1) === 'y') {
+        console.log('finished looping through array');
+    } else {
+        setTimeout(() => this.type(), typeSpeed);
+    }
 }
 
 // Init on DOM Load
@@ -50,6 +55,7 @@ function init() {
     const txtElement = document.querySelector('.txt-type');
     const words = JSON.parse(txtElement.getAttribute('data-words')); // data-words needs to be parsed
     const wait = txtElement.getAttribute('data-wait');
+    let counter = this.counter;
     // Init typewriter
     new TypeWriter(txtElement, words, wait);
 
