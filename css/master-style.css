@@ -26,7 +26,6 @@ footer {
 /* Changes to Wrapper Container */
 #wrapper {
     padding: 0 3rem;
-    margin-bottom: 50%;
 }
 
 #wrapper>h1,
@@ -59,6 +58,7 @@ h1.display-4 {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f8f9', endColorstr='#f5f7f9', GradientType=0);
 }
 
+/*-------------NAVBAR------------------ */
 .dropdown:hover>.dropdown-menu {
     display: block;
     font-weight: 800;
@@ -73,6 +73,7 @@ h1.display-4 {
     display: inline;
     padding-right: 1rem;
 }
+/*---------------------------------------*/
 
 .banner {
     text-shadow: 4px 4px 4px black;
@@ -89,10 +90,13 @@ h1.display-4 {
 
 
 /* ID Changes */
-
 #about {
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgb(0, 0, 0);
     background-clip: inherit;
     padding: 5%;
-    margin-bottom: 50%;
+}
+
+#contact {
+    background-color: gray;
+    padding: 2%;
 }
