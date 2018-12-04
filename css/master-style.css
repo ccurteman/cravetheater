@@ -4,12 +4,12 @@ html,
 body {
     font-family: "Bookman", "Ariel";
     height: 100vh;
-    overflow: hidden;
     background-image: url("../images/background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: 100%;
+    overflow: hidden;
 }
 
 p {
@@ -41,6 +41,12 @@ h1.display-4 {
     border: 1px solid black;
 }
 
+.dropdown-toggle::after {
+    display: none;
+}
+
+/* -------------------------------- */
+
 .container {
     display: flex;
     flex-direction: column;
@@ -56,7 +62,7 @@ h1.display-4 {
 }
 
 .container > h1 {
-    font-size: 3.2rem;
+    font-size: 10rem;
 }
 
 .conatiner > h2 {
@@ -74,4 +80,20 @@ h1.display-4 {
 
 .txt-type > .txt {
     border-right: 0.2rem solid #777;
+    border-bottom: 1px solid white;
+}
+
+/* --------------------------------- */
+
+.about {
+    background-color: white;
+    padding: 2rem;
+    height: 100vh;
+}
+
+/* ------------------------------------ */
+
+footer {
+    margin-top: 5%;
+    padding: 1%;
 }

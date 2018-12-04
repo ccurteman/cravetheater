@@ -1,0 +1,23 @@
+html,
+body {
+
+}
+
+#map {
+    margin: 2%;
+    margin-top: 5%;
+    padding: 2%;
+    
+}
+
+#map-image {
+    box-shadow: 10px 10px 5px grey;
+}
+
+#forms {
+    margin: 2%;
+    margin-top: 5%;
+    padding: 2%;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius:30px;
+    box-shadow: 10px 10px 5px grey;

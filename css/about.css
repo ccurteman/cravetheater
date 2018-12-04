@@ -1,0 +1,16 @@
+html,
+body {
+    background-size: 125%;
+}
+
+#about {
+    font-weight: 500;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.75);
+    margin: 2%;
+    padding: 2%;
+}
+
+#promotion {
+    margin: 2%;
+}
