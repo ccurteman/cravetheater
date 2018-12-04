@@ -59,7 +59,7 @@ h1.display-4 {
 
 .banner {
     text-shadow: 4px 4px 4px black;
-    margin-top: 100%;
+    margin-top: 40%;
     margin-bottom: 50%;
 }
 
@@ -71,10 +71,6 @@ h1.display-4 {
 /* ID Changes */
 
 #home {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%; */
     padding: 0 3rem;
     margin-bottom: 50%;
 }
@@ -91,4 +87,8 @@ h1.display-4 {
 
 #home>h2 {
     font-size: 2rem;
+}
+
+#about {
+    margin-bottom: 50%;
 }
