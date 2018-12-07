@@ -1,7 +1,7 @@
 /* Element Changes */
 html,
 body {
-    font-family: "Bookman", "Ariel";
+    font-family: "Helvetica", "Ariel";
     height: 100vh;
     background-image: url("../images/background.jpg");
     background-repeat: no-repeat;

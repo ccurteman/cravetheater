@@ -14,7 +14,7 @@ TypeWriter.prototype.type = function () {
     const current = this.wordIndex % this.words.length;
     // Get full text of current word
     const fullTxt = this.words[current];
-    console.log(fullTxt);
+    //console.log(fullTxt);
 
     // Check if deleting
     if (this.isDeleting) {
@@ -67,4 +67,14 @@ function scrollDown() {
         top: 100,
         behavior: 'smooth'
     });
+}
+
+// Function to control animation effects
+function scrollDown() {
+    let banner = document.getElementById('banner');
+    banner.className += ' slide-in-out';
+
+    let hiddenAbout = document.getElementById('hidden-about');
+    hiddenAbout.className += ' slide-in-bottom';
+    console.log(hiddenAbout);
 }
