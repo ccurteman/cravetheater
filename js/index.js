@@ -40,6 +40,7 @@ TypeWriter.prototype.type = function () {
         typeSpeed = 500;
     }
 
+    // If fullTxt is equal to the last word in our array, and the typewriter is on the last letter
     if (fullTxt === 'Theatre Company' && this.txt.slice(-1) === 'y') {
         console.log('finished looping through array');
     } else {
@@ -75,6 +76,11 @@ function scrollDown() {
     banner.className += ' slide-in-out';
 
     let hiddenAbout = document.getElementById('hidden-about');
-    hiddenAbout.className += ' slide-in-bottom';
+    hiddenAbout.className = 'container-fluid text-white slide-in-bottom';
     console.log(hiddenAbout);
+}
+
+function reverseScrollDown() {
+    let hiddenAbout = document.getElementById('hidden-about');
+    hiddenAbout.className = 'container-fluid text-white reverse-slide-in-bottom';
 }
