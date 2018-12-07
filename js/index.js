@@ -60,3 +60,11 @@ function init() {
     new TypeWriter(txtElement, words, wait);
 
 }
+
+// Moving window down on button click
+function scrollDown() {
+    window.scroll({
+        top: 100,
+        behavior: 'smooth'
+    });
+}

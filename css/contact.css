@@ -1,6 +1,14 @@
+/* Element Changes */
 html,
 body {
-    overflow: auto;
+    font-family: "Bookman", "Ariel";
+    height: 100vh;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
 }
 
 #map {

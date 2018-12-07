@@ -1,16 +1,14 @@
-/* Site Master Stylesheet */
-
 /* Element Changes */
 html,
 body {
-    font-family: "Bookman", "Ariel";
+    font-family: "Helvetica", "Ariel";
     height: 100vh;
     background-image: url("../images/background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    overflow: auto;
+    overflow: hidden;
 }
 
 p {
@@ -75,17 +73,13 @@ h1.display-4 {
 }
 /*---------------------------------------*/
 
+/* -------------BANNER------------------- */
 .banner {
     text-shadow: 4px 4px 4px black;
     margin-top: 25%;
-    margin-bottom: 50%;
     margin-left: 5%;
 }
 
-.txt-type>.txt {
-    /* border-right: 0.2rem solid #777; */
-    border-bottom: 1px solid white;
-}
 /* ------------------------------------- */
 
 
