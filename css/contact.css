@@ -29,3 +29,20 @@ body {
     background-color: rgba(0, 0, 0, 0.75);
     border-radius:30px;
     box-shadow: 10px 10px 5px grey;
+}
+
+/*-------------NAVBAR------------------ */
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    font-weight: 800;
+    border: 1px solid black;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.nav-item {
+    display: inline;
+    padding-right: 1rem;
+}

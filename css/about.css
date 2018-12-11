@@ -31,3 +31,19 @@ footer {
 #banner {
     padding: 1%;
 }
+
+/*-------------NAVBAR------------------ */
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    font-weight: 800;
+    border: 1px solid black;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.nav-item {
+    display: inline;
+    padding-right: 1rem;
+}

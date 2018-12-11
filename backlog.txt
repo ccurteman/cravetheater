@@ -1,15 +1,14 @@
 LANDING PAGE
--Change the typewriter to stop at "the" and finish writing out "'the'atre company"
 -Put the correct information on the homepage about animated section
 -Move Icons and change them to black to contrast better
--Change the style of the button -maybe something animated on hover to fill in- and reposition it to the bottom center
 -Make reverse animations to go back on home page
 
 ABOUT PAGE
--Navbar not spaced correctly - look at the home page
+-Navbar not spaced correctly - look at the home page (copy styling from sheets)
 -Recreate the bio page from original website, but with a horizontal design in mind
 
 CONTACT
--Navbar not spaced correctly - look at the home page
+-Navbar not spaced correctly - look at the home page (copy styling from sheets)
 -Fix the spacing on the form group
 -Embed real google map
+-Add footer

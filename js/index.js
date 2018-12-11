@@ -1,3 +1,5 @@
+import anime from 'animejs'
+
 const TypeWriter = function (txtElement, words, wait = 3000) {
     this.txtElement = txtElement;
     this.words = words;
@@ -71,16 +73,15 @@ function scrollDown() {
 }
 
 // Function to control animation effects
-function scrollDown() {
-    let banner = document.getElementById('banner');
-    banner.className += ' slide-in-out';
+// function scrollDown() {
+//     // Grabbing elements to be animated
+//     let banner = document.getElementById('banner');
+//     let hiddenAbout = document.getElementById('hidden-about');
+// }
 
-    let hiddenAbout = document.getElementById('hidden-about');
-    hiddenAbout.className = 'container-fluid text-white slide-in-bottom';
-    console.log(hiddenAbout);
-}
+// function reverseScrollDown() {
+//     let hiddenAbout = document.getElementById('hidden-about');
+//     hiddenAbout.className = 'container-fluid text-white reverse-slide-in-bottom';
+// }
 
-function reverseScrollDown() {
-    let hiddenAbout = document.getElementById('hidden-about');
-    hiddenAbout.className = 'container-fluid text-white reverse-slide-in-bottom';
-}
+// Animejs Functions

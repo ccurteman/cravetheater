@@ -1,0 +1,22 @@
+{
+  "name": "cravetheatre",
+  "version": "1.0.0",
+  "description": "Website for Crave Theatre Company",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccurteman/cravetheater.git"
+  },
+  "author": "Chris Curteman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccurteman/cravetheater/issues"
+  },
+  "homepage": "https://github.com/ccurteman/cravetheater#readme",
+  "dependencies": {
+    "animejs": "^2.2.0"
+  }
+}
