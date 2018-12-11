@@ -62,28 +62,16 @@ function init() {
 
 }
 
-// Moving window down on button click
-function scrollDown() {
-    window.scroll({
-        top: 100,
-        behavior: 'smooth'
-    });
-}
+function slideBanner() {
+    console.log('slideBanner');
+    let banner = document.getElementById('banner');
+    if (banner.className === '' || banner.className === 'slide-down') {
+        banner.className = 'slide-top';
+    }
 
-// Function to control animation effects
-// function scrollDown() {
-//     // Grabbing elements to be animated
-//     let banner = document.getElementById('banner');
-//     let hiddenAbout = document.getElementById('hidden-about');
-// }
-
-// function reverseScrollDown() {
-//     let hiddenAbout = document.getElementById('hidden-about');
-//     hiddenAbout.className = 'container-fluid text-white reverse-slide-in-bottom';
-// }
-
-// On Scroll
-document.getElementById('hidden-about').addEventListener("scroll", scrollInfo());
-function scrollInfo() {
-    console.log('this is scroll detection');
+    let about = document.getElementById('about');
+    for ( let i = 0; i < 100; i++) {
+        console.log(about.style.opacity);
+        about.style.opacity++;
+    }
 }
