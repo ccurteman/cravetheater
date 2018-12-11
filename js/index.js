@@ -41,7 +41,7 @@ TypeWriter.prototype.type = function () {
     }
 
     // If fullTxt is equal to the last word in our array, and the typewriter is on the last letter
-    if (fullTxt === 'Theatre Company' && this.txt.slice(-1) === 'y') {
+    if (fullTxt === 'atre Company' && this.txt.slice(-1) === 'y') {
         console.log('finished looping through array');
     } else {
         setTimeout(() => this.type(), typeSpeed);
@@ -70,8 +70,7 @@ function slideBanner() {
     }
 
     let about = document.getElementById('about');
-    for ( let i = 0; i < 100; i++) {
-        console.log(about.style.opacity);
+    for (let i = 0; i < 100; i++) {
         about.style.opacity++;
     }
 }
