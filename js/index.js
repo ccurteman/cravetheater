@@ -1,5 +1,3 @@
-import anime from 'animejs'
-
 const TypeWriter = function (txtElement, words, wait = 3000) {
     this.txtElement = txtElement;
     this.words = words;
@@ -84,4 +82,8 @@ function scrollDown() {
 //     hiddenAbout.className = 'container-fluid text-white reverse-slide-in-bottom';
 // }
 
-// Animejs Functions
+// On Scroll
+document.getElementById('hidden-about').addEventListener("scroll", scrollInfo());
+function scrollInfo() {
+    console.log('this is scroll detection');
+}
