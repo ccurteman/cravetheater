@@ -3,12 +3,8 @@ html,
 body {
     font-family: "Helvetica", "Ariel";
     height: 100vh;
-    background-image: url("../images/background.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
+    background-color: white;
+    overflow: auto;
 }
 
 #map {
@@ -26,9 +22,36 @@ body {
     margin: 2%;
     margin-top: 5%;
     padding: 2%;
-    background-color: rgba(0, 0, 0, 0.75);
-    border-radius:30px;
-    box-shadow: 10px 10px 5px grey;
+    background-color: rgba(0, 0, 0, 0.349);
+    box-shadow: 10px 10px 3px rgb(34, 34, 34);
+}
+/* --------GRID-------- */
+.wrapper {
+    position: relative;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 40% 60%;
+}
+
+.heading {
+    padding: 5%;
+    text-align: center;
+    grid-row: 1;
+    grid-column: 1 / 3;
+}
+
+.grid-item {
+    /* border: 1px solid black; */
+}
+
+#one {
+    grid-column: 1 / 1;
+    grid-row: 2;
+}
+
+#two {
+    grid-column: 2 / 2;
+    grid-row: 2;
 }
 
 /*-------------NAVBAR------------------ */
