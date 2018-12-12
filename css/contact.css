@@ -7,24 +7,15 @@ body {
     overflow: auto;
 }
 
-#map {
-    margin: 2%;
-    margin-top: 5%;
-    padding: 2%;
-    
+
+footer {
+    background-color: black;
+    width: 100%;
+    padding: .5%;
+    position: relative;
+    bottom: 0;
 }
 
-#map-image {
-    box-shadow: 10px 10px 5px grey;
-}
-
-#forms {
-    margin: 2%;
-    margin-top: 5%;
-    padding: 2%;
-    background-color: rgba(0, 0, 0, 0.349);
-    box-shadow: 10px 10px 3px rgb(34, 34, 34);
-}
 /* --------GRID-------- */
 .wrapper {
     position: relative;
@@ -40,9 +31,9 @@ body {
     grid-column: 1 / 3;
 }
 
-.grid-item {
-    /* border: 1px solid black; */
-}
+/* .grid-item {
+    border: 1px solid black;
+} */
 
 #one {
     grid-column: 1 / 1;
@@ -52,6 +43,12 @@ body {
 #two {
     grid-column: 2 / 2;
     grid-row: 2;
+}
+
+#three {
+    text-align: center;
+    grid-column: 1 / 3;
+    grid-row: 3;
 }
 
 /*-------------NAVBAR------------------ */
